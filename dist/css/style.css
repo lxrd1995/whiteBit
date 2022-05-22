@@ -34,6 +34,28 @@
 
 /* === / FONTS === */
 
+/* === SCROLL ===*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #7e7e7e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  border: 2px solid #7e7e7e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #111111;
+}
+
+/* === / SCROLL ===*/
+
 /* === VARIABLES === */
 
 /* === / VARIABLES === */
@@ -193,10 +215,6 @@ p {
 }
 
 /* === / COMONN ===*/
-
-/* === VARIABLES ===*/
-
-/* === / VARIABLES ===*/
 
 /* === IMPORT-BLOCKS ===*/
 
